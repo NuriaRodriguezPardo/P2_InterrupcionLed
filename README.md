@@ -98,5 +98,15 @@ En el loop(), verifica cada ciclo si hay cambios en los valores leídos por los 
 **Esquema de montaje:**<br>
 <img src="Esquema.png" width="400" height="300">
 
+**Ejemplo de salida por puerto  serie:**<br>
+```
+    Botón presionado 1 veces.
+    Botón presionado 2 veces.
+    Botón presionado 3 veces.
+    Botón presionado 4 veces.
+    Contador de botón reiniciado.
+    Botón presionado 1 veces.
+    Botón presionado 2 veces.
+```
 ## Conclusión: 
 Controla dos LEDs de forma periódica y monitorea un botón de cambios. Cuando este se presiona, cambia la frecuencia de uno de los LEDs y cuenta cuántas veces se ha presionado el botón. Además, hay un botón de reset que reinicia el contador de veces que se ha presionado.
